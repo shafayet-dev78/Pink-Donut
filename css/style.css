@@ -1,0 +1,341 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+  overflow-x: hidden;
+  font-size: 14px;
+	line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bigshot One';
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*	Common CSS */
+
+
+/* Top Section Start */
+.top-section{
+	width: 98%;
+	margin: 0 auto;
+}
+.top-section img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/* Top Section End */
+/* content Section Start */
+.content-section{
+	margin: 40px auto;
+}
+.content-section h2{
+	font-size: 42px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.content-section .uline{
+	width: 200px;
+	margin: -20px 0 0;
+	height: 10px;
+}
+.content-section p{
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+/* content Section End */
+/* Screen Section Start */
+.screen-section{
+	width: 100%;
+	margin: 40px auto;
+}
+.screen-section img{
+	width: 100%;
+}
+
+/* Screen Section End */
+/* header-section start */
+.header-section{
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/rectangle-1.png) top center no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-top: 15px;
+  transition: 1s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  color: #F7CB00;
+  background: #000;
+  border-radius: 25px;
+  padding: 7px 25px;
+  transition: 1s;
+}
+.navbar-nav .nav-link{
+	text-transform: uppercase;
+	transition: 1s;
+}
+.navbar-nav .nav-link.active:hover{
+	background: transparent;
+	color: #08f;
+	border: 1px solid #08f;
+}
+.navbar-nav .nav-link:hover{
+	color: #08f;
+}
+.header-section .inner-header{
+	text-align: center;
+}
+.header-section .inner-header h1{
+	font-size: 48px;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 90px;
+	text-align: center;
+}
+.header-section .inner-header .gls{
+	width: 35%;
+	margin-top: 70px;
+}
+.header-section .inner-header .btn{
+	width: 25%;
+	margin-top: 30px;
+}
+.header-section .inner-header .line{
+	width: 24px;
+}
+/* header-section end */
+/* what-section start */
+.what-section{
+	width: 100%;
+	text-align: center;
+}
+.what-section .scrl{
+	width: 4px;
+}
+.what-section h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: -80px;
+}
+.what-section .uline{
+	width: 250px;
+	height: 10px;
+	margin-top: -20px;
+}
+.what-section p{
+	font-size: 12px;
+	margin-top: -80px;
+	text-align: left;
+	margin-left: 40px;
+	line-height: 20px;
+}
+.what-section .inner-what{
+	margin-top: 60px;
+}
+.what-section .inner-what img{
+	width: 250px;
+	height: 200px;
+}
+.what-section .inner-what .dot{
+	height: 120px;
+	width: auto;
+}
+.what-section .inner-what h5{
+	text-transform: uppercase;
+}
+.what-section .inner-what p{
+	margin: 0px;
+	text-align: center;
+}
+/* what-section end */
+/* work-section start */
+.work-section{
+	width: 100%;
+	text-align: center;
+}
+.work-section .scrl{
+	margin-top: 60px;
+	width: 24px;
+}
+.work-section h1{
+	font-size: 48px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: -80px;
+	margin-left: 40px;
+}
+.work-section .uline{
+	width: 250px;
+	height: 10px;
+	margin-top: -20px;
+	margin-left: -220px;
+}
+.work-section .glry{
+	width: 98%;
+}
+.work-section .load{
+	width: 18%;
+	margin-top: 30px;
+}
+/* work-section end */
+/* about-section start */
+.about-section{
+	width: 100%;
+	margin: 60px 0;
+	text-align: center;
+}
+.about-section .scrl{
+	width: 24px;
+}
+.about-section h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: -80px;
+}
+.about-section .uline{
+	width: 250px;
+	height: 10px;
+	margin-top: -20px;
+}
+.about-section p{	
+	font-size: 12px;
+	margin-top: -80px;
+	text-align: left;
+	margin-left: 40px;
+	line-height: 20px;
+}
+.about-section .inner-about{
+	margin-top: 60px;
+}
+.about-section .inner-about .crl{
+	width: auto;
+	height: 170px;
+}
+.about-section .inner-about h1{
+	font-size: 42px;
+	margin: 0px;
+}
+.about-section .inner-about h5{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+}
+.about-section .inner-about p{
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0px;
+	text-align: center;
+}
+/* about-section end */
+/* contact-section start */
+.contact-section{
+	width: 100%;
+	background: #D1EAE3;
+	padding: 60px 0px 10px;
+}
+.contact-section .form-label {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contact-section .contact-form{
+	width: 100%;
+	margin-top: 50px 0px;
+}
+.contact-section .form-control{
+	border-radius: 12px;
+	background: #F9D663;
+	width: 90%;
+}
+.contact-section .contact-form .send{
+	width: 45%;
+	margin: 25px auto 50px;
+}
+.contact-section h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.contact-section .uline{
+	width: 235px;
+	height: 10px;
+	margin-top: -20px;
+}
+.contact-section .social-media{
+	width: 100%;
+}
+.contact-section .social-media ul{
+	list-style: none;
+	display: inline-flex;
+	margin: 0px;
+	padding: 0px;
+}
+.contact-section .social-media ul li{
+
+}
+.contact-section .social-media ul li img{
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.contact-section h4{
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.contact-section p{
+	font-size: 14px;
+}
+.footer-section{
+	width: 100%;
+}
+.footer-section p{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.footer-section .bottom-menu{
+	width: 100%;
+	text-align: right;
+}
+.footer-section .bottom-menu li{
+	list-style: none;
+	display: inline-flex;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+.footer-section .bottom-menu li a{
+	color: #151515;
+	font-weight: 600;
+	transition: 1s;
+}
+.footer-section .bottom-menu .active{
+	background: #000;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 18px;
+	transition: 1s;
+}
+.footer-section .bottom-menu .active:hover{
+	background: transparent;
+	color: #000;
+	border: 1px solid #000;
+}
+.footer-section .bottom-menu li a:hover{
+	color: #F9D663;
+}
+/* contact-section end */
